@@ -1,6 +1,7 @@
 #include <QCoreApplication>
-#include <iostream>
-#include <windows.h>
+// #include <studio.h>     // this is fo C
+#include <iostream>     // this is for Cpp
+#include <windows.h>    // this is the Windows SDK header libray
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +18,9 @@ int main(int argc, char *argv[])
     // If you do not need a running Qt event loop, remove the call
     // to QCoreApplication::exec() or use the Non-Qt Plain C++ Application template.
 
-    std::cout <<"Windows SDK is available!"<< std::endl;
+    printf("Windows SDK is available in C code!\n");
+    std::cout <<"Windows SDK is available in Cpp code!"<< std::endl;
+
     return 0;
 
     return QCoreApplication::exec();
