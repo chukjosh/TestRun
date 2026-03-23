@@ -14,7 +14,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(TestRun
   main.cpp
-  test.c
+
   test.cpp
 
 )
